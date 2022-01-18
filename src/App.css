@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.square{
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: 2px solid #010508;
+  background-color: #c6d7e9;
+  text-align: center;
+  vertical-align:top;
+  font-size: 50px;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
