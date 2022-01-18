@@ -59,7 +59,7 @@ function Board() {
           <div>{renderSquare(3)}{renderSquare(4)}{renderSquare(5)}</div>
           <div>{renderSquare(6)}{renderSquare(7)}{renderSquare(8)}</div>
           <h3>{status}</h3>
-          {celebration==true? <Confetti width={1350} height={550}/>:''}
+          {celebration==true? <Confetti className='design'/>:''}
           <button className='button' onClick={handleOnClick}>Play Again</button>
       </div>
   );
